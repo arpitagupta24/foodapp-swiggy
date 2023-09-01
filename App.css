@@ -1,3 +1,107 @@
-#heading {
-    color: red;
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid teal;
+    padding: 15px 20px;
+}
+
+/* Cart Logo */
+.cart-logo {
+    display: flex;
+    align-items: center;
+    width: 110px;
+}
+
+/* Navigation Items */
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.nav-items>ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items>ul>li {
+    font-size: 24px;
+    /* Reduced font size for better readability */
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    /* Slightly increased horizontal margin */
+    padding: 10px;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 150px;
+}
+
+/* Restaurant Card */
+/* Rest of your CSS styles... */
+.restaurant-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Restaurant Card */
+.res-card {
+    margin: 5px;
+    width: 290px;
+    border: 1.5px solid teal;
+    padding: 5px;
+    background-color: #f0f0f0;
+    /* Consider using more semantic elements for your card structure, like article, section, and figure */
+    transition: transform 0.1s ease-in-out;
+    /* Add a smooth transform transition */
+}
+
+/* Add a hover effect */
+.res-card:hover {
+    transform: scale(1.05);
+    /* Scale up the card on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Add a subtle box shadow on hover */
+    border: 1.5px solid #007f7f;
+    /* Change border color on hover */
+    cursor: pointer;
+    /* Change cursor to indicate interactivity */
+}
+
+/* Rest of your CSS styles... */
+
+/* Search Container */
+.filter-btn{
+    padding: 10px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+/* Restaurant Logo */
+.res-logo {
+    width: 100%;
+    height: 220px;
+    /* Use object-fit for image scaling */
+}
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card{
+    width: 275px;
+    height: 350px;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+.login{
+    padding:0 20px;
+    cursor: pointer;
 }
